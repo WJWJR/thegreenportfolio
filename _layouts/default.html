@@ -8,14 +8,11 @@
     <body>
         <header>
             <h1>William J Weekes Jr</h1>
-            <nav>
-                <ul>
-                    <li><a href="{{site.baseurl}}/index.html">Portfolio</a></li>
-                     <li><a href="{{site.baseurl}}/about.html">About</a></li>
-                     <li><a href="{{site.baseurl}}/blog.html">Blog</a></li>
-                </ul>
-            </nav>
+            {% include nav.html %}
         </header>
         {{content}}
+        <footer>
+            <p>&copy; 2007 - 2014 William J Weekes Jr.</p>
+        </footer>
     </body>
 </html>
