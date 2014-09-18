@@ -2,10 +2,15 @@ html {
     margin: 0;
     padding: 0;
     
-    font: normal 100%/1.4 Georgia,serif;
+    font: normal 100%/1.4 'Quattrocento Sans', sans-serif;
 }
 
 .current {
     background-color: #3e8ec6;
     color: #ffffff;
+}
+#nav, #ul, #li {
+    display: inline;
+    text-decoration: none;
+    color: #fff;
 }
