@@ -9,13 +9,42 @@
     
     <body>
         <header>
-            <h1>William J Weekes Jr</h1>
-            {% include nav.html %}
+            <div class="container">
+                <h1 id="logo">William J Weekes Jr</h1>
+                {% include nav.html %}
+            </div>
         </header>
-        {{content}}
+        <section>
+            <div class="hero">
+                <div class="container">
+                    <p>I am writing  something here so I can have peace.</p>
+                </div>
+            </div>           
+            </div>
+        </section>
+            <div class="container">
+                {{content}}
+            </div>
+        <section>
+            <div class="container">
+                <div class="ww-about">
+                    <h3>About</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum dapibus tincidunt sem sit amet commodo. Integer ex tortor, luctus nec cursus ut, viverra sed dui. In hac habitasse platea dictumst. Aenean consectetur nisi vitae diam congue finibus. Duis dictum augue vitae nisi blandit mollis. Curabitur vulputate mollis interdum. Fusce varius auctor erat. Aliquam feugiat id augue vel facilisis.</p>
+                </div>
+                <div class="ww-contact">
+                    <h3>Contact</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum dapibus tincidunt sem sit amet commodo. Integer ex tortor, luctus nec cursus ut, viverra sed dui. In hac habitasse platea dictumst. Aenean consectetur nisi vitae diam congue finibus. Duis dictum augue vitae nisi blandit mollis. Curabitur vulputate mollis interdum. Fusce varius auctor erat. Aliquam feugiat id augue vel facilisis.</p>
+                    <button>Email Me</button>
+                </div>
+                
+            </div>
+        </section>
+        
         <footer>
-            {% include nav.html %}
-            <p>&copy; 2007 - 2014 William J Weekes Jr.</p>
+            <div class="container">
+                {% include nav.html %}
+                <p>&copy; 2007 - 2014 William J Weekes Jr.</p>
+            </container>
         </footer>
     </body>
 </html>
