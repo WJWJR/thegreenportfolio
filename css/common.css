@@ -16,6 +16,9 @@ html {
     border-top-style: double; 
     padding: 5px;
 }
+a:hover {
+    background-color: #6ac170;
+}
 ul {
     list-style-type: none;
     margin: 0;
@@ -24,7 +27,8 @@ ul {
 li {
    display: inline;
     margin: 5px;
-    font-weight: 700;
+    font-weight: 500;
+    font-size: 14px;
 }
 header {
     margin: auto;
@@ -36,6 +40,8 @@ header {
 #logo {
     font-size: 28px;
     margin-top: -5px;
+    position: relative;
+    top: 15px;
 }
 
 nav ul{
@@ -53,13 +59,49 @@ a {
     margin-bottom: 55px;
     margin-top: -16px;
 }
+.ribbed {
+    background-image: url("../img/dia-line10x10.png");
+    background-repeat: repeat;
+    height: 10px;
+    position: relative;
+    top: 330px;
+}
+.showcase {
+    background-image: url("../img/dia-line100x100.png");
+    background-repeat: repeat;
+    height: 643px;
+    position: relative;
+    top: -67px;
+    
+}
 .boxs {
     width: 31%;
     height: 230px;
     margin-left: 10px;
     margin-bottom: 10px;
     background-color: black;
-    float: left;   
+    float: left;  
+    position: relative;
+    top: 75px;
+}
+
+.box-1 {
+    background-image: url("../img/ACTNEWS-Flagwsoldier-290x230d.png");
+}
+.box-2 {
+    background-image: url("../img/ACTNEWS-memorial-290x230d.jpg");
+}
+.box-3 {
+    background-image: url("../img/eb-290x230d.png");
+}
+.box-4 {
+    background-image: url("../img/tbi-290x230d.png");
+}
+.box-5 {
+    background-image: url("../img/wjwjr-290x230d.png");
+}
+.box-6 {
+    background-image: url("../img/next-290x230d.png");
 }
 
 .ww-bottom-row {
@@ -68,18 +110,22 @@ a {
 }
 
 .ww-about {
-    width: 42%;
-    padding: 20px;
+    width: 40%;
+    padding: 0px;
     height: 490px;
-    float: left;
-    
+    margin: 0px;
+    display: block;
+        
 }
-.ww-contact{
-    width: 42%;
-    padding: 20px;
+.ww-contact {
+    width: 40%;
+    padding: 0px;
     height: 490px;
+    display: block;
+    position: relative;
+    left: 550px;
+    top: -500px;
     clear: both;
-    
 }
 
 footer {
