@@ -6,6 +6,11 @@ layout: default
 
 <h2>A colloection of thoughts, inspiration, mistakes and other happenings.</h2>
 
-title
-date
-meta 
+<ul>
+    {% for blog in site.categories.jekyll %}
+    <li>
+        <a href="{{site.baseurl}}{{blog.url}}">{{blog.title}}</a>
+        <p>{{blog.meta}}</p>
+    </li>
+    {% endfor %}
+</ul>
