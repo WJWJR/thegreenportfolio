@@ -30,6 +30,16 @@ li {
     font-weight: 500;
     font-size: 14px;
 }
+
+.nav {}
+.nav-top{
+    margin-top: -35px;
+    margin-left: 700px;
+}
+.nav-bottom {
+    margin-bottom: -35px;
+    margin-left: 700px;
+}
 header {
     margin: auto;
     height: 70px;
